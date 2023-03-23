@@ -147,6 +147,5 @@ function articleMaker(article) {
 data.push({title: "Test Article", date: "3/23/2023", firstParagraph: "This is the first paragraph.", secondParagraph: "This is the second paragraph.", thirdParagraph: "This is the third paragraph."});
 
 for (let article in data) {
-  console.log(articleMaker(article));
   document.querySelector('div.articles').appendChild(articleMaker(article));
 }
